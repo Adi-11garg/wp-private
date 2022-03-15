@@ -54,4 +54,4 @@ Setup
 Architecture Diagram
 ------------
 
-<img align="right" alt="GIF" src="./architecture.png" width="500" height="500" />
+<img align="center" alt="GIF" src="./architecture.png" width="700" height="500" />
