@@ -54,4 +54,4 @@ Setup
 
 ### Architecture Diagram
 
-![Architecture Diagram]("https://github.com/atishayjain31/wp-private/blob/main/static/architecture_diagram.png")
+![Architecture Diagram]("./static/architecture_diagram.png")
