@@ -1,4 +1,5 @@
 pipeline {
+  git branch: 'main', url: 'https://github.com/atishayjain31/wp-private.git'
   stages {
     stage('Terraform Init') {
       steps {
