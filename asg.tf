@@ -4,7 +4,7 @@ resource "aws_autoscaling_group" "as_group" {
     health_check_grace_period = 60
     default_cooldown        = 60
     health_check_type         = "EC2"
-    max_size                  = 10
+    max_size                  = 5
     min_size                  = 2
     name                      = "project"
     target_group_arns         = [
@@ -35,10 +35,8 @@ resource "aws_launch_template" "launch_template" {
     # image_id                = "ami-011a9944eb4abcf55"  
     image_id                = "ami-0b6d5b94fb02d2192"
     instance_type           = "t2.micro"
-    # latest_version          = 2
     name_prefix   = "project"
 
-    # name                    = "project"
     vpc_security_group_ids  = [
         aws_security_group.asg_sg.id,
     ]
