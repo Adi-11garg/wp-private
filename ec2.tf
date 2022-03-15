@@ -3,7 +3,7 @@ resource "aws_eip" "lb" {
   vpc      = true
 }
 
-resource "aws_instance" "foo" {
+resource "aws_instance" "web" {
   ami           = "ami-0851b76e8b1bce90b " # us-west-2
   instance_type = "t2.small"
 
