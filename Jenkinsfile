@@ -10,7 +10,7 @@ pipeline {
   //   }
     stage('s3-ls'){
       steps {
-        withAWS(region: 'ap-south-1', credentials: '	e43f9934-045b-408e-98b2-d23a633488a6')
+        // withAWS(region: 'ap-south-1', credentials: '	e43f9934-045b-408e-98b2-d23a633488a6')
         sh "aws s3 ls"
       }
     }
