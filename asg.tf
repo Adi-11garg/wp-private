@@ -15,7 +15,7 @@ resource "aws_autoscaling_group" "as_group" {
 
     launch_template {
         id      = aws_launch_template.launch_template.id
-        version = "$Latest"
+        version = aws_launch_template.launch_template.latest_version
     }
 
     instance_refresh {
@@ -32,8 +32,8 @@ resource "aws_autoscaling_group" "as_group" {
 # aws_launch_template.launch_template:
 resource "aws_launch_template" "launch_template" {
     default_version         = 1
-    image_id                = "ami-011a9944eb4abcf55"
-    # image_id                = "ami-0e180c9e7263ff94a"
+    # image_id                = "ami-011a9944eb4abcf55"
+    image_id                = "ami-0e180c9e7263ff94a"
     instance_type           = "t2.micro"
     # latest_version          = 2
     name_prefix   = "project"
