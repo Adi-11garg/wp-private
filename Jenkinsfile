@@ -9,8 +9,11 @@ pipeline {
       }
     }
     stage('Terraform Plan') {
+      withAWS(credentials: 'AWS-Credentials', region: 'ap-south-1') {
+    // some block
+}
       steps {
-        withAWS(region: 'ap-south-1', credentials: 'AWS-Credentials')
+        // withAWS(region: 'ap-south-1', credentials: 'AWS-Credentials')
         sh "terraform plan"
       }
     }
