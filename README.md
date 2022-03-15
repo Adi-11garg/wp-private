@@ -52,3 +52,6 @@ Setup
 - Configiure them for logging and monitoring
 - Base AMI is already configired with agent to collect log
 
+### Architecture Diagram
+
+[Architecture Diagram]("./static/architecture_diagram.png")
