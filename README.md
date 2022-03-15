@@ -54,4 +54,4 @@ Setup
 
 ### Architecture Diagram
 
-![Architecture Diagram]("./static/architecture_diagram.png")
+![Architecture Diagram]("architecture.png")
