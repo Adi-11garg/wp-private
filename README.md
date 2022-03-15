@@ -54,4 +54,4 @@ Setup
 
 ### Architecture Diagram
 
-![Architecture Diagram]("architecture.png")
+<img src="architecture.png" alt="Architecture Diagram" width="500" height="600">
