@@ -1,5 +1,4 @@
 # Terraform high availability infrstructure on AWS
-=========
 
 This repository contains terraform configuration file and Jenkins file to launch high availability infrastructure on AWS with WordPress as Frontend application and RDS MySQL database and with end to end monoitoring and logging with TIG and EFK.
 
@@ -54,4 +53,4 @@ Setup
 
 ### Architecture Diagram
 
-<img src="architecture.png" alt="Architecture Diagram" width="500" height="600">
+<img src="./architecture.png" alt="Architecture Diagram" width="500" height="600">
